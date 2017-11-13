@@ -1,0 +1,30 @@
+ul {
+  padding: 0px;
+}
+
+li {
+  background-color: grey;
+  width: 75px;
+  list-style-type: none;
+  float: left;
+  margin-right: 2px;
+}
+
+li ul {
+  display: none;
+  list-style-type: none;
+  min-width: 100px;
+}
+
+li ul li {
+  width: 150px;
+}
+
+li:hover ul{
+  display: block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

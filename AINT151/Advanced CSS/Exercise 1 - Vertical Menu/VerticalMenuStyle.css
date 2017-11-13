@@ -1,0 +1,16 @@
+li {
+  background-color: lightgrey;
+  width: 100px;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: dimgrey;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: inline;
+}
