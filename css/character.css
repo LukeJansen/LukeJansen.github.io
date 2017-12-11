@@ -1,0 +1,30 @@
+body{
+  background-color: grey;
+  color: white;
+}
+
+
+h1{
+  text-align: center;
+}
+
+div{
+  margin: auto;
+  width: 25%;
+}
+
+#input{
+  float: left;
+}
+
+input{
+  float: right;
+  padding: 1px;
+  width: 200px;
+}
+
+select{
+    float: right;
+    padding: 1px;
+    width: 200px
+}
