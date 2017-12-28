@@ -13,5 +13,5 @@ function StorePlayerData()
 	localStorage.setItem("roomIndex", 0);
 	localStorage.setItem("item", "");
 
-	location.href='main';
+	location.href ='main';
 }
