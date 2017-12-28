@@ -13,5 +13,5 @@ function StorePlayerData()
 	localStorage.setItem("roomIndex", 0);
 	localStorage.setItem("item", "");
 
-	location.href='lukejansen.me/main';
+	location.href='main';
 }
