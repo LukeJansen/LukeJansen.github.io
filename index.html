@@ -10,7 +10,7 @@
 
 		<div>
 			<h1>Character Setup</h1>
-			<form method="post" action="main" onSubmit="StorePlayerData()">
+			<form>
 				Player Name: <input type="text" name="playername" />
 				<br><br>
 		    Player Gender:
@@ -19,7 +19,7 @@
 			    <option value="Female">Female</option>
 			  </select>
 		    <br><br>
-		    <input type="submit" id="submit" />
+		    <button type="button" id="submit" onclick="StorePlayerData()">Start Game</button>
 			</form>
 		</div>
 
