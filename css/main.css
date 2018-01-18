@@ -73,6 +73,16 @@ div{
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: LIGHTGRAY;
+  color: white;
+  text-align: left;
+}
+
 #main h1{
   text-align: center;
 }
