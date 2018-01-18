@@ -7,3 +7,6 @@ Fonts:
 Sound Effects:
 	https://freesound.org/people/beansqueso31/sounds/223101/
 	https://opengameart.org/content/postive-sounds
+	https://freesound.org/people/g_lowing/sounds/84432/
+	http://www.fromtexttospeech.com/
+	https://opengameart.org/content/interface-beeps

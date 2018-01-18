@@ -13,5 +13,11 @@ function StorePlayerData()
 	localStorage.setItem("roomIndex", 0);
 	localStorage.setItem("item", "");
 
-	location.href ='main';
+	location.href ='main.html';
 }
+
+document.addEventListener('keydown', function(event) {
+    if (event.keycode == 13){
+			StorePlayerData();
+		}
+});
