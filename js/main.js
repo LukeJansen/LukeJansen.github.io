@@ -48,7 +48,6 @@ function SelectRoom(roomIndex){
 
 		var name = document.getElementById('characterName');
 		var gender = document.getElementById('characterGender');
-		var health = document.getElementById('characterHealth');
 
 		var requirement = roomArray[roomIndex].requirement;
 
@@ -72,7 +71,6 @@ function SelectRoom(roomIndex){
 		title.innerHTML = roomArray[roomIndex].title;
 
 		name.innerHTML = localStorage.getItem("playername");
-		health.innerHTML = "Health: "+ localStorage.getItem("playerhealth");
 
 		switch(localStorage.getItem("playergender")){
 			case "Male":

@@ -44,10 +44,10 @@ var roomArray = [
 	},
 	{
 		title:'Turning Left',
-		text:'You turn left and push through the crowds, as you move down the road you start to see a medical centre at the end of the street.',
+		text:'You turn left and push through the crowds, the people block your way and you cannot see ahead of you.',
 		choices:[
 			{
-				text:'Medical centre',
+				text:'Push Through',
 				index:5
 			},
 			{
@@ -75,8 +75,8 @@ var roomArray = [
 		requirement:""
 	},
 	{
-		title:'Medical Centre',
-		text:'You go into the medical centre and the staff rush to you and immediately take you into intensive care. You are healed and allowed to rest. <br><br>After resting you are dismissed.',
+		title:'Dead End',
+		text:'You go to the end of the road and find a dead end there is nothing around. <br><br>Your only option is to go back the other way.',
 		choices:[
 			{
 				text:'Turn Right',
@@ -236,7 +236,7 @@ var roomArray = [
 	},
 	{
 		title: 'Heroic Death',
-		text: "You cannot bring yourself to end someone else's life so you decide you must end your own. Atleast then everyone else will be freed. You think back to Amy and how this game must have driven her over the edge to the point where she had to kill her best friend. You head upstairs to your bathroom, take out the prescription pills from the cabinet. After consuming the whole bottle you head to bead and drift off.",
+		text: "You cannot bring yourself to end someone else's life so you decide you must end your own. Atleast then everyone else will be freed. You think back to Amy and how this game must have driven her over the edge to the point where she had to kill her best friend. You head upstairs to your bathroom, take out the prescription pills from the cabinet. After consuming the whole bottle you head to bed and drift off.",
 		choices: [
 			{
 				text: 'Heroic End',
