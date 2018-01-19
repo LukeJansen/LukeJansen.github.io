@@ -15,17 +15,26 @@
   </head>
 
   <body onLoad="OnLoad()">
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
 
-      <!-- Modal content -->
-      <div class="modal-content">
+    <div id="mobileWarning" class="mobileWarning">
+      <div class="mobileWarning">
         <p>You seem to be using a mobile device in portrait mode.
         <br><br> This game does not work in the current resolution!
         <br><br> Please rotate your device landscape or expand the window!</p>
       </div>
-
     </div>
+
+    <div id="phone" class="phone">
+      <div class="phone-content">
+        <span id = "close" class="close">&times;</span>
+        <video id = "video" width="320" height="240">
+          <source id = "source" src="video/vo1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <button class = "button" id = "bc" onclick = "ReplayVideo()"> Replay </button>
+      </div>
+    </div>
+
     <div id="container">
       <div id="inventory">
         <h1>Inventory:</h1>
@@ -47,7 +56,7 @@
     </div>
 
   <div class="footer">
-    Luke Jansen - Alpha Version 1
+    Luke Jansen - Alpha Version 2
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.js"></script>

@@ -180,7 +180,7 @@ var roomArray = [
 	},
 	{
 		title: 'The Body',
-		text: "Even though you can't bring yourself to touch the body you can see, there seems to be three rips in her clothing that look like something was stabbed through them. <br><br><sound/static.wav> Something clicks into place and pieces of last night coming back to you. Amy came over for dinner, her phone kept making these weird noises<sound/tracking.wav>. She kept saying it was just her boss keeping track of her workload. The next thing you see is Amy standing over you with a syringe in her hand. The memory skips again, you have a knife in your hand. Skips again. Amy is on the floor a pool of blood expanding around her. <br><br>Coming back to reality, you look down on her corpse the realisation hits you, your heart is pounding. Amy tried to kill you, so you killed her. Trying to piece this all together you remember the noise from her phone, you realise it's the same noise from the person on the train. There must be more answers on her phone.",
+		text: "Even though you can't bring yourself to touch the body you can see, there seems to be three rips in her clothing that look like something was stabbed through them. <br><br>[static.wav] Something clicks into place and pieces of last night coming back to you. Amy came over for dinner, her phone kept making these weird noises[tracking.wav]. She kept saying it was just her boss keeping track of her workload. The next thing you see is Amy standing over you with a syringe in her hand. The memory skips again, you have a knife in your hand. Skips again. Amy is on the floor a pool of blood expanding around her.  <br><br>Coming back to reality, you look down on her corpse the realisation hits you, your heart is pounding. Amy tried to kill you, so you killed her. Trying to piece this all together you remember the noise from her phone, you realise it's the same noise from the person on the train. There must be more answers on her phone.",
 		choices: [
 			{
 				text: 'Inspect her phone',
@@ -208,15 +208,11 @@ var roomArray = [
 	},
 	{
 		title: 'Explanation',
-		text: "An audio file loads and plays.",
+		text: "A video file loads and plays.",
 		choices: [
 			{
-				text: 'Close the audio',
+				text: 'Put down the phone',
 				index: 16
-			},
-			{
-				text: 'Replay',
-				index: 14
 			}
 		],
 		item: "",
@@ -372,7 +368,7 @@ var roomArray = [
 	},
 	{
 		title: 'Nomination Ending',
-		text: "An audio file plays. []",
+		text: "An video file plays.",
 		choices: [
 			{
 				text: 'Continue',

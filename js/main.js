@@ -1,13 +1,26 @@
-typing = false;
+var typing = false;
+var videoFile = "";
 
 function OnLoad()
 {
-	var x = document.getElementById("myModal");
+	var x = document.getElementById("mobileWarning");
 	x.style.display = "none";
 	if (checkOrientation()){
 		SelectRoom(localStorage.getItem("roomIndex"));
 	} else{
 		x.style.display = "block";
+	}
+
+	var span = document.getElementById('close');
+
+	span.onclick = function() {
+		var m1 = document.getElementById("mobileWarning");
+		var m2 = document.getElementById("phone");
+		var v = document.getElementById("video");
+
+		v.pause();
+		m1.style.display = "none";
+		m2.style.display = "none";
 	}
 }
 
@@ -146,6 +159,15 @@ function SelectRoom(roomIndex){
 				setTimeout(type, delay);
 			} else{
 				typing = false;
+
+				if (roomIndex == 14) {
+					videoFile = "video/vo1.mp4"
+					setTimeout(PlayVideo, 1000);
+				}
+				if (roomIndex == 26) {
+					videoFile = "video/vo2.mp4"
+					setTimeout(PlayVideo, 1000);
+				}
 			}
 		}
 
@@ -161,12 +183,37 @@ function SelectRoom(roomIndex){
 		lastRoom = roomIndex;
 	}
 
+function PlayVideo(){
+	var x = document.getElementById("phone");
+	var v = document.getElementById("video");
 
+	v.src = videoFile;
+	x.style.display = "block";
+	v.play();
+}
+
+function ReplayVideo(file){
+	var v = document.getElementById("video");
+	v.currentTime = 0;
+	v.play();
+}
 
 window.onresize = function(event){
 	if (typing){
 		Refresh(localStorage.getItem("roomIndex"));
 	} else{
 		OnLoad();
+	}
+}
+
+window.onclick = function(event){
+	var m1 = document.getElementById("mobileWarning");
+	var m2 = document.getElementById("phone");
+
+	if (event.target == m1 || event.target == m2){
+		event.target.style.display = "none";
+
+		var v = document.getElementById("video");
+		v.pause();
 	}
 }
