@@ -94,7 +94,6 @@ div{
     text-align: center;
     width: 30%;
     height: 80%;
-    border: 3px solid b
 }
 
 .phone-content > p {
@@ -108,7 +107,6 @@ div{
     font-size: 64px;
     margin: 3% 3% 0% 0%;
     font-weight: bold;
-    border: 1px solid white;
 }
 
 .close:hover,
@@ -161,7 +159,6 @@ div{
 #video{
   margin: 5% auto 10% auto;
   width: 90%;
-  border: 1px solid white;
 }
 
 #b0{

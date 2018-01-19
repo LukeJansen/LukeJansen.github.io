@@ -108,7 +108,7 @@ var roomArray = [
 			}
 		],
 		item: "",
-		requirement: "",
+		requirement: "Transportation Card",
 	},
 	{
 		title: 'Death Screen',
@@ -392,7 +392,7 @@ var roomArray = [
 	},
 	{
 		title: 'Thank You For Playing!',
-		text: "Add in some thing where they can see choices made",
+		text: "Thank you for playing! <br><br> Thanks to: <br><br>Voiceovers - Sian Aislinn Elder",
 		choices: [
 		],
 		item: "Thank You Letter",
